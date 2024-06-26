@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/login.css">
+</head>
+<body>
+    {{!-- <form action="/login" method="Post">
+        <input type="text" name="username" placeholder="Enter username">
+        <input type="text" name="password" placeholder="Enter password">
+        <button type="submit">Login </button>
+    </form> --}}
+
+    <div class="login-page">
+      <div class="form">
+        <div class="login">
+          <div class="login-header">
+            <h3>Welcome</h3>
+            <p>Please enter your credentials to login.</p>
+          </div>
+        </div>
+        <form action="/login" method="Post" class="login-form">
+          <input type="text" name="username" placeholder="Enter username">
+          <input type="text" name="password" placeholder="Enter password">
+          <button type="submit">login</button>
+          <p>New User ? <a Write href="/register" > Register</a></p>
+
+        </form>
+      </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Blog</title>
+    <link rel="stylesheet" href="/css/login.css">
+</head>
+<body>
+
+    <div class="login-page">
+      <div class="form">
+        <div class="login">
+          <div class="login-header">
+            <h3>Add Blog Here</h3>
+            {{!-- <p>Please enter your credentials to login.</p> --}}
+          </div>
+        </div>
+    
+    
+                <form action="/addBlog" method="post" class="myForm" enctype="multipart/form-data">
+                    <input type="file" class="productName" placeholder="Add Image" name="imageURL">
+                    <input type="text" class="productQuantity" placeholder="Enter Blog Title" name="title" >
+                    <textarea name="desc" id="" cols="30" rows="10" placeholder="Enter Blog Description"></textarea>
+                    <button type="submit" class="add">Add Blog</button>
+                </form>
+        </div>
+    </div>
+        
+</body>
+</html>
